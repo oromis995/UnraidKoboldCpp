@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>koboldcpp</Name>
+  <Repository>koboldai/koboldcpp</Repository>
+  <Registry>https://hub.docker.com/r/koboldai/koboldcpp/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/koboldai/koboldcpp/</Support>
+  <Project>https://github.com/oromis995/UnraidKoboldCpp/tree/main</Project>
+  <Overview>KoboldCpp is a lightweight but powerful AI backend, bundled with KoboldAI Lite frontend.&#xD;
+&#xD;
+https://hub.docker.com/r/koboldai/koboldcpp/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:5002]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/LostRuins/koboldcpp/refs/heads/concedo/niko.ico</Icon>
+  <ExtraParams>--gpus all</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1739134872</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Don't Remote Tunnel" Target="KCPP_DONT_TUNNEL" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Workspace" Target="/workspace" Default="" Mode="rw" Description="This is where your docker data will be stored. Models and binaries will be saved here." Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="KCPP_ARGS" Target="KCPP_ARGS" Default="--model https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf " Mode="" Description="This is where we add run variables.&#13;&#10;'--model' accepts URL's and filenames.&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">--model https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf </Config>
+  <Config Name="WebUI Port" Target="5001" Default="5002" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5002</Config>
+  <Config Name="Don't Update Kobold on Launch" Target="KCPP_DONT_UPDATE" Default="false" Mode="" Description="The Docker container update is a separate update. This just updates the binary." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="Retain Models on Restart" Target="KCPP_DONT_REMOVE_MODELS" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <TailscaleStateDir/>
+</Container>
