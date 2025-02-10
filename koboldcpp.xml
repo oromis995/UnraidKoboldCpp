@@ -23,7 +23,6 @@ https://hub.docker.com/r/koboldai/koboldcpp/</Overview>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="Don't Remote Tunnel" Target="KCPP_DONT_TUNNEL" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="Workspace" Target="/workspace" Default="" Mode="rw" Description="This is where your docker data will be stored. Models and binaries will be saved here." Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="KCPP_ARGS" Target="KCPP_ARGS" Default="--model https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf " Mode="" Description="This is where we add run variables.&#13;&#10;'--model' accepts URL's and filenames.&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">--model https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf </Config>
