@@ -1,7 +1,7 @@
 # KoboldCpp
 
 ## What this is
-This small repository provides the necessary configuration file to interface the Unraid Operating System with the KoboldCpp project.
+This small repository provides the necessary configuration file to interface the Unraid Operating System with the KoboldCpp project. It was made by Henk717 and I.
 
 KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable from Concedo, that builds off llama.cpp and adds many additional powerful features.
 
