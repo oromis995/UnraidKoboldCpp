@@ -5,10 +5,10 @@ This small repository provides the necessary configuration file to interface the
 
 KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable from Concedo, that builds off llama.cpp and adds many additional powerful features.
 
-![Preview](media/preview.png)
-![Preview](media/preview2.png)
-![Preview](media/preview3.png)
-![Preview](media/preview4.png)
+![Preview](Media/preview.png)
+![Preview](Media/preview2.png)
+![Preview](Media/preview3.png)
+![Preview](Media/preview4.png)
 
 ### Features
 - Single file executable, with no installation required and no external dependencies
